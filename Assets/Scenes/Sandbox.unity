@@ -411,6 +411,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2104700162729607021, guid: 0f52478ca1239604db30a1ea6325112f, type: 3}
   m_PrefabInstance: {fileID: 1601583604}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1687089294 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6245239439081818445, guid: 263d6e0ee055d564a9855c980d79fca9, type: 3}
+  m_PrefabInstance: {fileID: 2382417475122819604}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1687089302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687089294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4856efa9613f294a942adaa8ddacfc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1847126713 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6857494127649941693, guid: 350baf7ae44aaac4fbc73213291080f5, type: 3}
@@ -551,7 +568,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1219272014032557582, guid: 263d6e0ee055d564a9855c980d79fca9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -30.12
+      value: -29.89
       objectReference: {fileID: 0}
     - target: {fileID: 1219272014032557582, guid: 263d6e0ee055d564a9855c980d79fca9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -588,14 +605,6 @@ PrefabInstance:
     - target: {fileID: 1219272014032557582, guid: 263d6e0ee055d564a9855c980d79fca9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2382417474691645847, guid: 263d6e0ee055d564a9855c980d79fca9, type: 3}
-      propertyPath: m_Drag
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2382417474691645847, guid: 263d6e0ee055d564a9855c980d79fca9, type: 3}
-      propertyPath: m_Constraints
-      value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 6245239439081818445, guid: 263d6e0ee055d564a9855c980d79fca9, type: 3}
       propertyPath: m_Name
@@ -658,6 +667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Landingpad
       objectReference: {fileID: 0}
+    - target: {fileID: 3486873840787558457, guid: d2091386f9f631746a45afdaee3ebd89, type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2091386f9f631746a45afdaee3ebd89, type: 3}
 --- !u!1001 &4636282637580043837
@@ -714,6 +727,10 @@ PrefabInstance:
     - target: {fileID: 5896174566499380225, guid: 2e0a1a8a94de2f849b252edd418fb415, type: 3}
       propertyPath: m_Name
       value: Starpad
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896174566499380225, guid: 2e0a1a8a94de2f849b252edd418fb415, type: 3}
+      propertyPath: m_TagString
+      value: Friendly
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e0a1a8a94de2f849b252edd418fb415, type: 3}
